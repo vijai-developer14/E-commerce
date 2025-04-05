@@ -1,0 +1,207 @@
+.impact_bannerCnt,
+.impact_bannerCnt h1,
+.impact_bannerCnt p {
+  background-color: transparent;
+  color: white;
+}
+.impactBanner_2 {
+  display: none;
+}
+.impactBanner_image {
+  background-color: transparent;
+}
+.impact_bannerBg {
+  background-image: url("../webp images/impact banner desktop.jpg");
+  padding-top: 3%;
+  min-height: 780px;
+  background-size: contain;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 150px;
+  background-repeat: no-repeat;
+}
+.impact_bannerCnt {
+  margin-left: 10%;
+  max-width: 41%;
+  margin-top: 9%;
+}
+.impact_bannerCnt h1 {
+  font-size: 2.8rem;
+}
+.impact_bannerCnt p {
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
+.impact_bannerCnt button {
+  margin-top: 9%;
+  padding: 9px 15px;
+  color: #17a6b9;
+  border-radius: 5px;
+  font-size: 1.4em;
+  font-weight: 600;
+  border-color: transparent;
+  font-family: "FsMe";
+  word-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) {
+  .impact_bannerBg {
+    background-image: url("../webp images/impact banner 1440.jpg");
+    padding-top: 8%;
+    min-height: 750px;
+
+    padding-left: 2%;
+    padding-right: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .impact_bannerCnt button {
+    margin-top: 5%;
+    padding: 9px 15px;
+    color: #17a6b9;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-color: transparent;
+    font-family: "FsMe";
+    word-spacing: 0.1rem;
+  }
+  .impact_bannerCnt h1 {
+    font-size: 2.6rem;
+  }
+  .impact_bannerCnt p {
+    margin-top: 5%;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .impact_bannerBg {
+    background-image: url("../webp images/impact banner 1440.jpg");
+    padding-top: 5%;
+    min-height: 750px;
+
+    padding-left: 2%;
+    padding-right: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .impact_bannerCnt button {
+    margin-top: 5%;
+    padding: 5px 9px;
+    color: #17a6b9;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    border-color: transparent;
+    font-family: "FsMe";
+    word-spacing: 0.1rem;
+  }
+  .impact_bannerCnt h1 {
+    font-size: 2.4rem;
+  }
+  .impact_bannerCnt p {
+    margin-top: 5%;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .impact_bannerBg {
+    background-image: url("../webp images/impactBannerBG 768.jpg");
+
+    min-height: 814px;
+
+    padding-left: 2%;
+    padding-right: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .impact_bannerCnt {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .impact_bannerCnt h1 {
+    text-align: center;
+    font-size: 2em;
+    word-spacing: 0.2rem;
+  }
+  .impact_bannerCnt p {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 2%;
+  }
+  .impactBanner_1 {
+    text-align: center;
+    display: none;
+  }
+  .impactBanner_2 {
+    display: block;
+    text-align: center;
+  }
+  .impact_bannerCnt button {
+    padding: 5px 9px;
+    margin-top: 2%;
+    border-radius: 20px;
+    font-size: 1em;
+    border-color: transparent;
+    font-family: "FsMe";
+    word-spacing: 0.1rem;
+    margin-left: 41%;
+  }
+}
+@media screen and (max-width: 648px) {
+  .impact_bannerBg {
+    background-image: url("../webp images/impactBanner 648.jpg");
+    min-height: 750px;
+    padding-top: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .impact_bannerBg {
+    background-color: #32c4d6;
+    padding-top: 13%;
+    min-height: 600px;
+
+    background-image: none;
+  }
+  .impact_bannerCnt h1 {
+    text-align: center;
+    font-size: 1.9rem;
+  }
+  .impact_bannerCnt p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 5%;
+  }
+  .impactBanner_1 {
+    display: none;
+  }
+  .impactBanner_2 {
+    display: block;
+    text-align: center;
+  }
+  .impact_bannerCnt button {
+    padding: 5px 9px;
+    margin-top: 5%;
+    border-radius: 20px;
+    font-size: 1rem;
+    border-color: transparent;
+    font-family: "FsMe";
+    word-spacing: 0.1rem;
+    margin-left: 38%;
+  }
+  .impactBanner_image {
+    background-image: url("../webp images/imapactBanner Image mobile.png");
+    background-repeat: no-repeat;
+
+    max-width: 350px;
+    min-height: 366px;
+    margin: 10% auto;
+  }
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-family: "M PLUS Rounded 1c", serif; */
+  font-style: normal;
+  /* font-family: "Plantin Semibold"; */
+  /* font-family: "MerriweatherSans-VariableFont_wght"; */
+  /* background-color: transparent; */
+}
+@font-face {
+  font-family: "FsMe";
+  src: url("../fonts/FS Me-Regular.otf"), format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "FsMe";
+  word-spacing: 0.1rem;
+  /* font-family: "Nunito", serif;
+  font-optical-sizing: auto; */
+}

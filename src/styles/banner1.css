@@ -1,0 +1,249 @@
+.banner {
+  height: 850px;
+  z-index: 0;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url("../webp images/banner.webp");
+}
+
+.gridBanner {
+  margin: auto;
+  transform: translateY(85%);
+  margin-left: 10.5%;
+
+  background-color: transparent;
+}
+
+.gridBanner h1 {
+  font-size: 3.4em;
+  font-weight: 800;
+
+  color: #2fa71f;
+  background-color: transparent;
+  text-align: left;
+}
+
+.gridBanner h4 {
+  margin-top: 1em;
+
+  font-size: 1.8em;
+  font-weight: 600;
+
+  color: #2fa71f;
+  text-align: left;
+  background-color: transparent;
+}
+
+.gridBanner p {
+  margin-top: 10px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  width: 600px;
+
+  font-size: 20px;
+  font-weight: 500;
+
+  color: #3ea430;
+  text-align: left;
+  background-color: transparent;
+}
+
+.bannerButton1 {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  transform: translateY(40px);
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bannerButton1 button {
+  background-image: url("../webp images/Group 1000005728.png");
+  background-repeat: no-repeat;
+  background-position-y: 12.5px;
+  background-position-x: 8.4px;
+  height: 38px;
+  width: 38px;
+  border-radius: 30px;
+  border: none;
+  background-color: #3ea430;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.bannerButton1:hover .b1Button {
+  border-radius: 30px;
+  width: 140px;
+}
+
+.bannerButton1 .b1Span {
+  margin-top: 16px;
+  margin-left: 42px;
+
+  font-size: 18px;
+  font-weight: 500;
+
+  color: #309523;
+  position: absolute;
+  transition: all 200ms ease-in;
+  background-color: transparent;
+}
+
+.bannerButton1:hover .b1Span {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1654px) {
+  .banner {
+    background-image: url("../webp images/banner1654.webp");
+    background-size: cover;
+    background-position: center;
+  }
+  .gridBanner {
+    transform: translateY(85%);
+    margin-left: 8%;
+  }
+}
+
+@media screen and (max-width: 1394px) {
+  .banner {
+    background-image: url("../webp images/1394.png");
+    background-size: cover;
+    background-position: center;
+    /* margin-top: -8px; */
+    height: 611px;
+  }
+  .gridBanner {
+    transform: translateY(60%);
+    margin-left: 2%;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+  .banner h4 {
+    font-size: 1.8rem;
+  }
+  .banner p {
+    font-size: 1.3rem;
+  }
+  .bannerButton1 {
+    transform: translateY(28px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    z-index: 0;
+  }
+  .gridBanner {
+    transform: translateY(60%);
+    margin-left: 2%;
+  }
+  .banner h1 {
+    font-size: 2.6rem;
+  }
+  .banner h4 {
+    font-size: 1.7rem;
+  }
+  .banner p {
+    font-size: 1.4rem;
+  }
+  .bannerButton1 {
+    transform: translateY(28px);
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .banner {
+    background-image: url("../webp images/998.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: -8px;
+    height: 496px;
+  }
+  .gridBanner {
+    transform: translateY(40%);
+    margin-left: 2%;
+  }
+  .banner h1 {
+    font-size: 2.6rem;
+  }
+  .banner h4 {
+    font-size: 1.6rem;
+  }
+  .banner p {
+    font-size: 1.2rem;
+  }
+  .bannerButton1 {
+    transform: translateY(20px);
+  }
+}
+@media screen and (max-width: 876px) {
+  .banner {
+    background-image: url("../webp images/876.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: -2px;
+    height: 571px;
+  }
+  .gridBanner {
+    transform: translateY(40%);
+    width: 70%;
+
+    margin: 0 auto;
+  }
+  .banner h1 {
+    font-size: 2.6rem;
+    text-align: center;
+  }
+  .banner h4 {
+    font-size: 1.6rem;
+    text-align: center;
+    /* margin-left: 8%; */
+  }
+  .banner p {
+    display: none;
+  }
+  .bannerButton1 {
+    margin: 0 auto;
+    transform: translateY(20px);
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .banner h1 {
+    font-size: 2.4rem;
+  }
+  .banner h4 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .banner h1 {
+    font-size: 1.9rem;
+  }
+  .banner h4 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .banner {
+    background-image: url("../webp images/472.png");
+  }
+  .bannerButton1 {
+    transform: translateY(10px);
+  }
+  .banner h1 {
+    font-size: 1.7rem;
+  }
+  .banner h4 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+}

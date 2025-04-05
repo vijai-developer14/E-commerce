@@ -1,0 +1,61 @@
+.head {
+  text-align: center;
+
+  font-size: 3em;
+  font-style: normal;
+  color: #1d940d;
+  margin-top: 2em;
+}
+.carousel {
+  display: flex;
+  /* width: 1414px; */
+  margin: 3em auto;
+  align-items: center;
+  justify-content: space-between;
+
+  font-style: normal;
+}
+.inner {
+  display: flex;
+  justify-self: center;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 80em;
+  text-align: center;
+}
+.inner h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-top: 0.9em;
+}
+.inner p {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-top: 0.5em;
+  line-height: 1.5em;
+}
+.carousel button {
+  height: 50px;
+  width: 50px;
+}
+.preButton {
+  background-image: url("../webp images/arroww.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4%;
+  height: 3em;
+  border-color: transparent;
+
+  cursor: pointer;
+}
+.nexButton {
+  background-image: url("../webp images/arrowwright.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4%;
+  height: 3em;
+  border-color: transparent;
+
+  cursor: pointer;
+}

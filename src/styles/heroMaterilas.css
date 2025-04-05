@@ -1,0 +1,519 @@
+* {
+  color: #494949;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.7;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+@keyframes lefToright {
+  from {
+    opacity: 0.5;
+    margin-left: -40px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0px;
+  }
+}
+@keyframes rightToLeft {
+  from {
+    opacity: 0.5;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.heroMaterialsHeading {
+  font-weight: 400;
+  font-style: normal;
+  max-width: 535px;
+  margin: auto;
+}
+.heroMaterialsHeading h1 {
+  font-size: 3em;
+  color: #1d940d;
+  margin-top: 140px;
+  text-align: center;
+  animation: appear 1s linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+.heroMaterialsHeading p {
+  font-size: 26px;
+  margin-top: 20px;
+  text-align: center;
+  animation: appear 1s linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+
+.heroCnt {
+  max-width: 1500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.bambooCnt {
+  display: flex;
+  align-items: center;
+}
+.bambooCnt div {
+  position: relative;
+}
+.bambooCnt h3 {
+  background-color: transparent;
+  position: absolute;
+  margin-top: -7%;
+  margin-left: 2.7%;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+}
+.bambooCnt p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  margin-top: 3%;
+  line-height: 2.2rem;
+}
+/* ...............................................terraCottaCnt */
+.terraCottaCnt {
+  display: flex;
+  align-items: center;
+}
+.terraCottaCnt div {
+  position: relative;
+}
+.terraCottaCnt h3 {
+  position: absolute;
+  margin-top: -8%;
+  margin-left: 4.5%;
+  letter-spacing: 0.1rem;
+
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+}
+.terraCottaCnt p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  margin-top: 3%;
+  line-height: 2.2rem;
+}
+
+/* ...............................................Cane */
+.caneCnt {
+  display: flex;
+  align-items: center;
+}
+.caneCnt h3 {
+  margin-top: -7.8%;
+  margin-left: 4.5%;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  background-color: transparent;
+}
+.caneCnt p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  margin-top: 6%;
+  line-height: 2.2rem;
+}
+
+/* ...............................................recycle */
+.recycledCnt {
+  display: flex;
+  align-items: center;
+}
+.recycledCnt h3 {
+  margin-top: -7.2%;
+  margin-left: 4.5%;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+}
+.recycledCnt p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  margin-top: 6%;
+  line-height: 2.2rem;
+}
+
+.heroCnt button {
+  width: 120px;
+  height: 35px;
+  font-size: 1.2rem;
+  margin-left: 5px;
+  font-family: "FsMe";
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 30px;
+  border-color: #8b8b8b;
+  margin-top: 20px;
+  /* background-color: transparent; */
+  /* position: relative; */
+}
+
+/* .heroCnt button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  transform-origin: right;
+  background: #494949;
+  transform: scaleX(0);
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+
+.heroCnt button:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  color: white;
+  z-index: 999;
+  border-radius: 30px;
+} */
+/* .........................................................left to right */
+.aniLeftToRight {
+  animation: lefToright 0.5s linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}
+.aniRightToLeft {
+  animation: rightToLeft 0.5s linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}
+
+@media screen and (max-width: 1400px) {
+  .heroCnt h3 {
+    margin-top: -8%;
+  }
+  .bambooImage {
+    height: 700px;
+  }
+  .terracotaImage {
+    height: 600px;
+  }
+  .caneImage {
+    height: 640px;
+  }
+  .recycledImage {
+    height: 570px;
+  }
+  @keyframes lefToright {
+    from {
+      opacity: 0.5;
+      margin-left: 0px;
+    }
+    to {
+      opacity: 1;
+      margin-left: 0px;
+    }
+  }
+  @keyframes rightToLeft {
+    from {
+      opacity: 0.5;
+      transform: translateX(0px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+}
+@media screen and (max-width: 1384px) {
+  .heroCnt h3 {
+    margin-top: -7.4%;
+    background-color: #f7f7f7;
+  }
+  .caneCnt h3 {
+    margin-top: -9%;
+  }
+
+  .heroContentSecondParagraph {
+    display: none;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .heroCnt h3 {
+    margin-top: -8.8%;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .caneCnt h3 {
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .heroCnt h3 {
+    margin-top: -9.5%;
+    font-size: 1.5rem;
+  }
+
+  .heroCnt p {
+    font-size: 1.6rem;
+  }
+  .bambooImage {
+    height: 600px;
+  }
+  .terracotaImage {
+    height: 550px;
+  }
+  .caneImage {
+    height: 570px;
+  }
+  .recycledImage {
+    height: 550px;
+  }
+}
+@media screen and (max-width: 1128px) {
+  .caneCnt h3 {
+    margin-top: -11.6%;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .heroCnt {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .heroCnt h3 {
+    margin-top: -9.5%;
+    margin-left: 0px;
+    font-size: 1.5rem;
+  }
+  .heroCnt p {
+    font-size: 1.5rem;
+  }
+  .bambooCnt {
+    flex-direction: column;
+
+    text-align: center;
+  }
+  .bambooCnt h3 {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .terraCottaCnt {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .terraCottaCnt h3 {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .caneCnt {
+    flex-direction: column;
+    text-align: center;
+  }
+  .caneCnt h3 {
+    position: static;
+    margin-top: 20px;
+    margin-bottom: -35px;
+  }
+
+  .recycledCnt {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .recycledCnt h3 {
+    position: relative;
+    margin-top: 20px;
+  }
+  .heroContentBgImage {
+    display: none;
+  }
+  .recycledCnt p {
+    margin-top: 15px;
+  }
+  .bambooImage {
+    margin-top: 50px;
+  }
+  .terracotaImage {
+    margin-top: 50px;
+  }
+  .caneImage {
+    margin-top: 50px;
+  }
+  .recycledImage {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .heroMaterialsHeading h1 {
+    font-size: 2.9rem;
+  }
+
+  .heroMaterialsHeading p {
+    font-size: 1.5rem;
+  }
+  .heroMaterialsHeading img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .heroMaterialsHeading h1 {
+    font-size: 2.7rem;
+  }
+
+  .heroMaterialsHeading p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .heroMaterialsHeading h1 {
+    font-size: 2.4rem;
+  }
+
+  .heroMaterialsHeading p {
+    font-size: 1.6rem;
+  }
+  .heroCnt h3 {
+    font-size: 1.5rem;
+  }
+
+  .caneText {
+    transform: translateY(16px);
+  }
+  .heroCnt p {
+    line-height: 1.6rem;
+    font-size: 1.3rem;
+  }
+
+  .bambooImage {
+    height: 530px;
+  }
+  .terracotaImage {
+    height: 510px;
+  }
+  .caneImage {
+    height: 490px;
+  }
+  .recycledImage {
+    height: 430px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heroCnt h3 {
+    font-size: 1.5rem;
+  }
+  .bambooText {
+    margin-top: -10px;
+  }
+  .caneText {
+    transform: translateY(16px);
+  }
+  .heroCnt p {
+    line-height: 1.6rem;
+    font-size: 1.3rem;
+  }
+
+  .bambooImage {
+    height: 490px;
+  }
+  .terracotaImage {
+    height: 480px;
+  }
+  .caneImage {
+    height: 420px;
+  }
+  .recycledImage {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heroMaterialsHeading h1 {
+    font-size: 2.1rem;
+  }
+
+  .heroMaterialsHeading p {
+    font-size: 1.3rem;
+  }
+  .heroCnt button {
+    margin-top: 28px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .bambooImage {
+    height: 450px;
+  }
+  .terracotaImage {
+    height: 420px;
+  }
+  .caneImage {
+    height: 370px;
+  }
+  .recycledImage {
+    height: 330px;
+  }
+
+  .caneText {
+    transform: translateY(22px);
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .bambooImage {
+    height: 420px;
+  }
+  .terracotaImage {
+    height: 380px;
+  }
+  .caneImage {
+    height: 320px;
+  }
+  .recycledImage {
+    height: 270px;
+  }
+  .heroMaterialsHeading h1 {
+    font-size: 2rem;
+  }
+
+  .heroMaterialsHeading p {
+    font-size: 1.1rem;
+  }
+  .heroCnt h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .bambooImage {
+    height: 370px;
+  }
+  .terracotaImage {
+    height: 330px;
+  }
+  .caneImage {
+    height: 260px;
+  }
+  .recycledImage {
+    height: 220px;
+  }
+}

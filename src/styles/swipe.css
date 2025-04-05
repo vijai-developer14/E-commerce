@@ -1,0 +1,245 @@
+@keyframes reducePlasticAni {
+  from {
+    opacity: 0.5;
+    scale: 0.8;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.rpBg {
+  max-width: 1500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 70px auto;
+  text-align: center;
+
+  animation: reducePlasticAni 0.5s linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+  font-style: normal;
+}
+.desc {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: -2.9em;
+  margin-bottom: 2.9em;
+}
+
+h2 {
+  font-size: 3.5em;
+  font-weight: 700;
+  color: #1d940d;
+  margin-bottom: 1.5em;
+}
+.ReducePlasticImage1 {
+  background-image: url("../webp images/whale.webp");
+  height: 442px;
+  background-position: center;
+}
+.ReducePlasticImage2 {
+  background-image: url("../webp images/globe.webp");
+  height: 442px;
+  background-position: center;
+}
+.ReducePlasticImage3 {
+  background-image: url("../webp images/soil.webp");
+  height: 442px;
+  background-position: center;
+}
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 1.2em;
+}
+p {
+  font-size: 1.6em;
+  font-weight: 500;
+  margin-top: 0.3em;
+  line-height: 1.5em;
+}
+.swiper-button-next {
+  color: rgb(85, 85, 85) !important;
+}
+.swiper-button-prev {
+  color: rgb(85, 85, 85) !important;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 40px !important;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0 !important;
+}
+@media screen and (max-width: 1024px) {
+  .rpBg h2 {
+    font-size: 2.7rem;
+  }
+  .rpBg .desc {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 936px) {
+  .rpBg h2 {
+    font-size: 2.7rem;
+  }
+  .rpBg h3 {
+    font-size: 1.9rem;
+  }
+  .rpBg p {
+    font-size: 1.5rem;
+  }
+  .ReducePlasticImage1 {
+    height: 350px;
+    background-size: cover;
+  }
+  .ReducePlasticImage2 {
+    height: 350px;
+    background-size: cover;
+  }
+  .ReducePlasticImage3 {
+    height: 350px;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rpBg h3 {
+    font-size: 1.6rem;
+  }
+  .rpBg p {
+    font-size: 1.4rem;
+  }
+  .ReducePlasticImage1 {
+    height: 300px;
+    background-size: cover;
+  }
+  .ReducePlasticImage2 {
+    height: 300px;
+    background-size: cover;
+  }
+  .ReducePlasticImage3 {
+    height: 300px;
+    background-size: cover;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 27px !important;
+    margin-top: -400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ReducePlasticImage1 {
+    height: 270px;
+    background-size: cover;
+  }
+  .ReducePlasticImage2 {
+    height: 270px;
+    background-size: cover;
+  }
+  .ReducePlasticImage3 {
+    height: 270px;
+    background-size: cover;
+  }
+  .rpBg h2 {
+    font-size: 2.4rem;
+  }
+  .rpBg h3 {
+    font-size: 1.6rem;
+  }
+  .rpBg p {
+    line-height: 1.9rem;
+    font-size: 1.6rem;
+  }
+  .desc {
+    margin-top: -28px;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 25px !important;
+    margin-top: -350px;
+  }
+  .rpBg h3 {
+    font-size: 1.4rem;
+  }
+  .rpBg p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ReducePlasticImage1 {
+    height: 240px;
+    background-size: cover;
+  }
+  .ReducePlasticImage2 {
+    height: 230px;
+    background-size: cover;
+  }
+  .ReducePlasticImage3 {
+    height: 220px;
+    background-size: cover;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 30px !important;
+    margin-top: -480px;
+  }
+  .rpBg h2 {
+    font-size: 2.1rem;
+  }
+  .rpBg h3 {
+    font-size: 1.4rem;
+  }
+  .rpBg p {
+    /*  */
+    line-height: 1.9rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ReducePlasticImage1 {
+    height: 210px;
+    background-size: cover;
+  }
+  .ReducePlasticImage2 {
+    height: 210px;
+    background-size: cover;
+  }
+  .ReducePlasticImage3 {
+    height: 210px;
+    background-size: cover;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 20px !important;
+    margin-top: -480px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .ReducePlasticImage1 {
+    height: 190px;
+    background-size: cover;
+  }
+  .ReducePlasticImage2 {
+    height: 190px;
+    background-size: cover;
+  }
+  .ReducePlasticImage3 {
+    height: 190px;
+    background-size: cover;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    opacity: 0;
+  }
+  .rpBg h3 {
+    font-size: 1.3rem;
+  }
+}

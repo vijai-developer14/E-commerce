@@ -1,0 +1,420 @@
+@keyframes appearEssentials {
+  from {
+    opacity: 0.4;
+    scale: 0.9;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+.essentialGrid {
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+.essentialGrid h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 45px;
+  letter-spacing: 0.2rem;
+  font-size: 2.7em;
+  font-weight: 600;
+
+  color: #1d940d;
+}
+.imageBorder {
+  justify-self: center;
+  width: 95%;
+  height: 22em;
+  border: 1px solid #494949;
+  padding-left: 5%;
+}
+.imageBorder img {
+  margin-top: 2.5em;
+  background-color: transparent;
+}
+.detailBg {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: space-between;
+  justify-self: center;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.prName {
+  font-size: 1.4em;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 6%;
+}
+.prRating {
+  font-size: 1.1em;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 7%;
+}
+
+.conatiner .essentialsButton {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  border-color: #494949;
+
+  height: 52px;
+  width: 95%;
+  margin-top: 6%;
+
+  transform: translateX(9px);
+}
+.essentialGrid button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  transform-origin: right;
+  background: #494949;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-out;
+}
+
+.essentialGrid button:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+  color: white;
+}
+.essentialGrid button:hover span {
+  color: white;
+}
+
+button #s1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  font-style: normal;
+  margin-left: 2%;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  justify-self: center;
+  font-family: "FsMe";
+}
+button #s2 {
+  font-size: 1.6em;
+  font-weight: 500;
+  font-style: normal;
+  margin-left: 2%;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  justify-self: center;
+  font-family: "FsMe";
+}
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+
+  line-height: 0;
+}
+.slick-prev {
+  top: -8% !important;
+  left: 95% !important;
+}
+.slick-next {
+  top: -8% !important;
+  right: -2.5%;
+}
+@media screen and (max-width: 1546px) {
+  .essentialGrid {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1346px) {
+  .imageBorder {
+    height: 21em;
+  }
+  .imageBorder img {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1222px) {
+  .imageBorder {
+    height: 20em;
+  }
+  .imageBorder img {
+    height: 230px;
+  }
+  .detailBg .prName {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1128px) {
+  .imageBorder {
+    height: 20em;
+    width: 90%;
+  }
+  .imageBorder img {
+    height: 260px;
+  }
+  .detailBg {
+    width: 90%;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .detailBg .prName {
+    font-size: 1.3rem;
+  }
+  .slick-prev {
+    top: -8% !important;
+    left: 93% !important;
+  }
+  .slick-next {
+    top: -8% !important;
+    right: 0% !important;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .essentialGrid h1 {
+    font-size: 2.3rem;
+  }
+  .essentialsButton {
+    padding-top: 4px;
+    font-size: 0.8rem;
+  }
+
+  .imageBorder {
+    padding-right: 5px;
+  }
+  .imageBorder img {
+    height: 225px;
+  }
+}
+@media screen and (max-width: 958px) {
+  .detailBg .prName {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 918px) {
+  .conatiner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .essentialGrid h1 {
+    font-size: 2.3rem;
+  }
+  .detailBg {
+    flex-direction: column;
+  }
+  .prRating {
+    margin-top: 5px;
+  }
+
+  .imageBorder {
+    padding-right: 5px;
+    height: 270px;
+  }
+  .imageBorder img {
+    height: 205px;
+  }
+}
+@media screen and (max-width: 864px) {
+  .imageBorder {
+    width: 101%;
+  }
+  .imageBorder img {
+    height: 190px;
+  }
+  .detailBg {
+    width: 101%;
+  }
+  .essentialGrid .essentialsButton {
+    transform: translateX(0px);
+    width: 101%;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .imageBorder {
+    width: 106%;
+  }
+  .imageBorder img {
+    height: 170px;
+  }
+  .detailBg {
+    width: 106%;
+  }
+  .essentialGrid .essentialsButton {
+    transform: translateX(-8px);
+    width: 106%;
+  }
+}
+@media screen and (max-width: 638px) {
+  .imageBorder {
+    width: 100%;
+    height: 300px;
+  }
+  .imageBorder img {
+    height: 207px;
+  }
+  .detailBg {
+    width: 100%;
+  }
+  .essentialGrid .essentialsButton {
+    transform: translateX(-8px);
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .imageBorder {
+    width: 100%;
+    height: 300px;
+  }
+  .imageBorder img {
+    height: 190px;
+  }
+  .detailBg {
+    width: 100%;
+  }
+  .essentialGrid .essentialsButton {
+    transform: translateX(-3px);
+    width: 100%;
+  }
+  .slick-prev {
+    /* top: -8% !important; */
+    left: 88% !important;
+  }
+  .slick-next {
+    /* top: -8% !important; */
+    right: 4% !important;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  .imageBorder img {
+    height: 160px;
+  }
+  .imageBorder {
+    width: 100%;
+    height: 240px;
+    padding-left: -11px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .imageBorder img {
+    height: 160px;
+  }
+  .imageBorder {
+    width: 107%;
+    height: 230px;
+    padding-left: -11px;
+  }
+  .essentialGrid .essentialsButton {
+    transform: translateX(-6px);
+    font-size: 0.7rem;
+    width: 108%;
+    height: 48px;
+  }
+  .detailBg {
+    width: 107%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .imageBorder img {
+    height: 150px;
+  }
+  .imageBorder {
+    width: 104%;
+    height: 230px;
+    padding-left: -11px;
+  }
+  .essentialGrid .essentialsButton {
+    transform: translateX(-2px);
+    font-size: 0.7rem;
+    width: 105%;
+    height: 48px;
+  }
+  .detailBg {
+    width: 104%;
+  }
+  .detailBg .prName {
+    font-size: 1.23rem;
+  }
+  .prRating {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .imageBorder img {
+    transform: translateY(-18px);
+
+    height: 215px;
+  }
+  .imageBorder {
+    width: 80%;
+    height: 260px;
+    padding-left: -11px;
+  }
+  .detailBg {
+    flex-direction: row;
+    width: 80%;
+  }
+  .essentialGrid .essentialsButton {
+    transform: translateX(36px);
+    font-size: 0.7rem;
+    width: 80%;
+    height: 48px;
+  }
+  .prRating {
+    padding-top: 14px;
+  }
+  .slick-prev {
+    top: -4% !important;
+    left: 77% !important;
+  }
+  .slick-next {
+    top: -4% !important;
+    right: 13% !important;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .imageBorder {
+    height: 230px;
+  }
+  .imageBorder img {
+    transform: translateY(-18px);
+    height: 180px;
+    position: none;
+    z-index: -9;
+  }
+  .detailBg {
+    flex-direction: column;
+  }
+  .prRating {
+    padding-top: 5px;
+  }
+
+  .essentialGrid .essentialsButton {
+    transform: translateX(27px);
+    font-size: 0.7rem;
+    width: 80%;
+    height: 48px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .imageBorder img {
+    transform: translateY(-7px);
+    height: 160px;
+    position: none;
+    z-index: -9;
+  }
+}

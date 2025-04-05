@@ -1,0 +1,108 @@
+.bgFooter {
+  font-style: normal;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.line {
+  height: 1px;
+  /* max-width: 1500px; */
+  background-color: grey;
+  margin: 1% auto;
+}
+footer {
+  max-width: 1500px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5em;
+}
+footer h4 {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: #494949;
+  margin-bottom: 25px;
+}
+
+footer li {
+  list-style: none;
+  font-size: 1.28em;
+  font-weight: 500;
+  color: #5c5c5c;
+  margin-top: 18px;
+}
+footer h5 {
+  font-size: 1.35em;
+  font-weight: 600;
+  color: #5c5c5c;
+  margin-top: 15px;
+}
+footer form {
+  margin-top: 20px;
+}
+footer form input[type="text"] {
+  width: 245px;
+  height: 45px;
+  border-color: #5c5c5c;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.15em;
+  padding-left: 10px;
+}
+footer form input[type="text"]:focus {
+  outline: none;
+}
+footer form input[type="submit"] {
+  width: 105px;
+  height: 45px;
+  background-color: #5c5c5c;
+  margin-left: 5px;
+  border-color: transparent;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: white;
+}
+#copyrights {
+  text-align: center;
+  max-width: 1500px;
+  font-size: 0.9rem;
+  /* margin-top: 3%;
+  margin-bottom: 1%; */
+  margin: 3% auto 0.6%;
+  /* border-bottom: solid 1px rgb(207, 207, 207); */
+}
+@media screen and (max-width: 1024px) {
+  footer {
+    flex-wrap: wrap;
+  }
+  footer div {
+    margin-left: 10px;
+    margin-bottom: 50px;
+  }
+  .line {
+    margin-top: 130px;
+  }
+}
+@media screen and (max-width: 426px) {
+  footer {
+    padding-left: 0px;
+  }
+  footer form input[type="submit"] {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 300px) {
+  footer form input[type="text"] {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 256px) {
+  .bgFooter h5 {
+    font-size: 1.1rem;
+  }
+}

@@ -1,0 +1,72 @@
+* {
+  font-weight: 500;
+  font-style: normal;
+  /* color: #494949; */
+}
+
+h1 {
+  font-weight: 700;
+  margin-top: 5%;
+  font-size: 3.5em;
+  color: #1d940d;
+  text-align: center;
+}
+
+.reducePlasticBg {
+  display: flex;
+  /* width: 76%; */
+
+  margin: 3% auto;
+}
+
+.reducePlasticCnts {
+  width: 85%;
+  margin: auto;
+  display: flex;
+}
+
+.reducePlasticCnts .slide {
+  justify-self: center;
+  width: 100%;
+
+  justify-items: center;
+}
+
+.slideHidden {
+  display: none;
+}
+
+.slide h2 {
+  font-weight: 600;
+  margin-top: 2.5%;
+  font-size: 2.2em;
+}
+
+.slide p {
+  margin-top: 1.7%;
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 1.55em;
+}
+
+.prev {
+  background-image: url("../webp images/arroww.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4%;
+  height: 3em;
+  border-color: transparent;
+  margin-top: 17%;
+  cursor: pointer;
+}
+
+.next {
+  background-image: url("../webp images/arrowwright.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 4%;
+  height: 3em;
+  border-color: transparent;
+  margin-top: 17%;
+  cursor: pointer;
+}

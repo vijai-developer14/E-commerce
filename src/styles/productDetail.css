@@ -1,0 +1,169 @@
+.productDetailBg {
+  max-width: 1500px;
+  margin: 80px auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.productDetail_Bg {
+  align-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.productDescription {
+  max-width: 420px;
+}
+.productDescription h1 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.productDescription p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.productDescriptionPara1 {
+  margin-top: 40px;
+}
+/* ....................................line */
+.productDetailLine {
+  height: 1px;
+  width: 300px;
+  background-color: #494949;
+  margin-top: 18px;
+}
+/* ....................................add to cart button */
+.productDescription button {
+  height: 55px;
+  width: 270px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  margin-top: 55px;
+  cursor: pointer;
+}
+/* ...........................................image */
+.productDetailImageBorder {
+  border: solid 1px #494949;
+  max-width: 320px;
+  height: 400px;
+  align-content: center;
+}
+/* .....................................price*/
+.productDetailPriceLine {
+  height: 1px;
+  width: 300px;
+  background-color: #494949;
+  margin-top: 18px;
+}
+/* .........................................//////////////plastic saved  */
+.plasticSavedContentBg {
+  margin-top: 40px;
+}
+.plasticSavedContentTitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.plasticSavedInGrams {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-left: 25px;
+}
+/* ...........................................learn more button in plastic saved */
+.plasticSavedButton {
+  width: 130px;
+  height: 36px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 25px;
+  cursor: pointer;
+}
+/* ....................................///////////////quantity increase and decrease */
+.productDetail_quantityIncreaseAndDecrease {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  max-width: 150px;
+  margin-top: 80px;
+}
+.productDetail_quantityIncreaseAndDecrease span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: 1px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 28px;
+  text-align: center;
+}
+.productDetail_quantityIncreaseAndDecrease button {
+  border: 1px solid #494949;
+  height: 25px;
+  width: 25px;
+  padding: 2px;
+  cursor: pointer;
+}
+/* .............................////////////////////////////////////buy now */
+.productDetail_buyNowButton {
+  width: 350px;
+  height: 60px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  background-color: #494949;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .productDetailPrice {
+    margin-top: 60px;
+  }
+  .productDetailImageBorder {
+    height: 300px;
+  }
+  .productDetailImageBorder img {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1052px) {
+  .productDetailBg {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .productDetailBg {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .productDetail_Bg {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .productDetailImageBorder {
+    margin-top: 50px;
+  }
+  .productDescription {
+    align-items: center;
+    justify-content: center;
+  }
+  .productDetailLine {
+    margin: 10px auto;
+  }
+  .productDetailPriceLine {
+    margin: 10px auto;
+  }
+  .productDetail_quantityIncreaseAndDecrease {
+    margin: 35px auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .productDetail_buyNowButton {
+    width: 290px;
+  }
+}

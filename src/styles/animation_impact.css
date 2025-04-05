@@ -1,0 +1,755 @@
+.impact_heading {
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  background-image: url("../webp images/impace_heading.webp");
+  min-height: 400px;
+}
+.impact_heading h1 {
+  font-size: 2.5rem;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+}
+.impact_heading p {
+  font-size: 1.8rem;
+  background-color: transparent;
+  color: white;
+}
+/* .........................................impact_thermosphere */
+.impact_thermosphere {
+  text-align: center;
+  background-image: url("../webp images/impact_thermosphere.webp");
+  min-height: 500px;
+  padding-top: 7%;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.thermosphere_spaceShip_desktop {
+  background-image: url("../webp images/spaceShip_desktop.png");
+  margin-top: 40px;
+  width: 220px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+}
+.thermosphere_satelite_desktop {
+  background-image: url("../webp images/satelite.png");
+  width: 260px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+}
+.impact_thermosphere h1 {
+  font-size: 2.5rem;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+}
+.impact_thermosphere p {
+  font-size: 1.6rem;
+  background-color: transparent;
+  color: white;
+}
+.thermosphere_spaceShip {
+  display: none;
+}
+/* ................................................mesospher  */
+.impact_mesosphere {
+  background-image: url("../webp images/mesosphereBg_desktop.jpg");
+  min-height: 450px;
+  text-align: center;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+.mesosphere_asteroid_desktop {
+  background-image: url("../webp images/asteroid 1_desktop.png");
+  height: 145px;
+  width: 131px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+.mesosphere_asteroid_desktop2 {
+  background-image: url("../webp images/asteroid 2_desktop.png");
+  height: 202px;
+  width: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin-top: 4%;
+}
+.impact_mesosphere h1 {
+  font-size: 2.5rem;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+}
+.impact_mesosphere p {
+  font-size: 1.6rem;
+  background-color: transparent;
+  color: white;
+}
+.mesosphere_asteroid {
+  display: none;
+}
+/* .........................................Stratosphere*/
+.stratosphere_astranout {
+  display: none;
+}
+.impact_stratosphere {
+  background-image: url("../webp images/stratosphereBG_mobile.webp");
+  min-height: 420px;
+  text-align: center;
+  padding-top: 4%;
+  padding-left: 1%;
+  padding-right: 3%;
+  padding-bottom: 4%;
+}
+.stratosphere_astranout_desktop {
+  background-image: url("../webp images/astronut_desktop.png");
+  height: 179px;
+  width: 9%;
+
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  position: absolute;
+}
+.impact_stratosphere h1 {
+  font-size: 2.4rem;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+}
+.impact_stratosphere p {
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+/* .........................................troposphere*/
+.impact_troposphere {
+  background-image: url("../webp images/troposphereBg_desktop.jpg");
+  min-height: 855px;
+  text-align: center;
+  padding-top: 6%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 18%;
+  background-repeat: no-repeat;
+}
+.impact_troposphere h1 {
+  font-size: 2.4rem;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+}
+.impact_troposphere p {
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: white;
+}
+/* .........................................water */
+.impact_water {
+  background-image: url("../webp images/waterBg_desktop.jpg");
+
+  background-repeat: no-repeat;
+  min-height: 1167px;
+  text-align: center;
+  padding-top: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 5%;
+  margin-top: -30px;
+}
+.impact_water h1 {
+  font-size: 2.4rem;
+  background-color: transparent;
+  color: #10127e;
+  font-weight: 600;
+}
+.impact_water p {
+  font-size: 1.6em;
+  background-color: transparent;
+  color: #10127e;
+}
+.impact_water button {
+  margin-top: -1%;
+  border-radius: 30px;
+  padding: 15px 19px;
+  border: transparent;
+  color: #142c9a;
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.waterPlastic_desktop {
+  background-image: url("../webp images/plastic_water_desktop.png");
+  max-width: 1550px;
+  height: 350px;
+  background-color: transparent;
+  margin-top: 13%;
+  background-repeat: no-repeat;
+  margin-left: 6%;
+  background-size: contain;
+}
+.fish_bg_desktop {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.water_turtle_desktop {
+  background-image: url("../webp images/turtle_desktop.png");
+  width: 425px;
+  height: 725px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10%;
+}
+.water_Whale_desktop {
+  background-image: url("../webp images/water_whale_desktop.png");
+  width: 465px;
+  height: 870px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* .....................................................................1024 */
+@media screen and (max-width: 1024px) {
+  .thermosphere_spaceShip_desktop,
+  .thermosphere_satelite_desktop {
+    display: none;
+  }
+  .thermosphere_spaceShip {
+    display: block;
+  }
+  .impact_heading {
+    text-align: center;
+    padding-top: 19%;
+    padding-bottom: 5%;
+    background-image: url("../webp images/impace_heading.webp");
+  }
+  .impact_heading h1 {
+    font-size: 2.5rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_heading p {
+    font-size: 1.7rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................impact_thermosphere */
+  /* .........................................impact_thermosphere */
+  .impact_thermosphere {
+    text-align: center;
+    background-image: url("../webp images/impact_thermosphere.webp");
+    min-height: 500px;
+    padding-top: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .thermosphere_spaceShip {
+    margin-left: 60%;
+    margin-top: -2%;
+    background-image: url("../webp images/thermosphere_spaceShip.jpg");
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+  }
+  .impact_thermosphere h1 {
+    font-size: 2.5rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_thermosphere p {
+    font-size: 1.6rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................mesosphere*/
+  .mesosphere_asteroid {
+    display: block;
+  }
+  .mesosphere_asteroid_desktop,
+  .mesosphere_asteroid_desktop2 {
+    display: none;
+  }
+  .impact_mesosphere {
+    background-image: url("../webp images/mesosphere bg mobile.webp");
+    min-height: 450px;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 14%;
+    flex-direction: column;
+  }
+  .mesosphere_asteroid {
+    background-image: url("../webp images/mesosphere asteroid mobile.webp");
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+  }
+  .impact_mesosphere h1 {
+    font-size: 2.5rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_mesosphere p {
+    font-size: 1.6rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................Stratosphere*/
+  .stratosphere_astranout_desktop {
+    display: none;
+  }
+  .impact_stratosphere {
+    background-image: url("../webp images/stratosphereBG_mobile.webp");
+    min-height: 420px;
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 8%;
+    flex-direction: column;
+  }
+  .stratosphere_astranout {
+    background-image: url("../webp images/stratosphere astronut mobile.webp");
+    min-height: 90px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    margin-left: 74%;
+    display: block;
+  }
+  .impact_stratosphere h1 {
+    font-size: 2.4rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_stratosphere p {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................troposphere*/
+  .impact_troposphere {
+    background-image: url("../webp images/factoryBg-1024.jpg");
+    min-height: 480px;
+    text-align: center;
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 18%;
+    background-repeat: no-repeat;
+  }
+  .impact_troposphere h1 {
+    font-size: 2.4rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_troposphere p {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................water*/
+  .waterDesktopProps_b {
+    display: none;
+  }
+  .impact_water {
+    background-image: url("../webp images/waterBg_1024.jpg");
+
+    background-repeat: no-repeat;
+    min-height: 1167px;
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5px;
+    margin-top: -30px;
+  }
+  .impact_water h1 {
+    font-size: 2.4rem;
+    background-color: transparent;
+    color: #10127e;
+    font-weight: 600;
+  }
+  .impact_water p {
+    font-size: 1.6em;
+    background-color: transparent;
+    color: #10127e;
+    margin-top: 5%;
+  }
+  .impact_water button {
+    margin-top: 69%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 25px;
+    border: transparent;
+    color: #636363;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+
+/* ................                           ..............768 */
+@media screen and (max-width: 768px) {
+  .impact_heading {
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 5%;
+    background-image: url("../webp images/impace_heading.webp");
+    min-height: 400px;
+  }
+  .impact_heading h1 {
+    font-size: 2rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_heading p {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................impact_thermosphere */
+  .impact_thermosphere {
+    text-align: center;
+    background-image: url("../webp images/impact_thermosphere.webp");
+    min-height: 400px;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .thermosphere_spaceShip {
+    margin-left: 60%;
+
+    background-image: url("../webp images/thermosphere_spaceShip.jpg");
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+  .impact_thermosphere h1 {
+    font-size: 2rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_thermosphere p {
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................mesosphere*/
+  .impact_mesosphere {
+    background-image: url("../webp images/mesosphere bg mobile.webp");
+    min-height: 370px;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 14%;
+  }
+  .mesosphere_asteroid {
+    background-image: url("../webp images/mesosphere asteroid mobile.webp");
+    min-height: 90px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+  }
+  .impact_mesosphere h1 {
+    font-size: 2rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_mesosphere p {
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................Stratosphere*/
+  .impact_stratosphere {
+    background-image: url("../webp images/stratosphereBG_mobile.webp");
+    min-height: 350px;
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 8%;
+  }
+  .stratosphere_astranout {
+    background-image: url("../webp images/stratosphere astronut mobile.webp");
+    min-height: 90px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    margin-left: 74%;
+  }
+  .impact_stratosphere h1 {
+    font-size: 2rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_stratosphere p {
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................troposphere*/
+  .impact_troposphere {
+    background-image: url("../webp images/troposphere768.webp");
+    min-height: 450px;
+    text-align: center;
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 18%;
+    background-repeat: no-repeat;
+  }
+  .impact_troposphere h1 {
+    font-size: 2rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_troposphere p {
+    font-size: 1.4rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................water*/
+  .impact_water {
+    background-image: url("../webp images/waterBG_768.webp");
+
+    background-repeat: no-repeat;
+    min-height: 1167px;
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5px;
+    margin-top: -30px;
+  }
+  .impact_water h1 {
+    font-size: 2rem;
+    background-color: transparent;
+    color: #10127e;
+    font-weight: 600;
+  }
+  .impact_water p {
+    font-size: 1.4em;
+    background-color: transparent;
+    color: #10127e;
+    margin-top: 7%;
+  }
+  .impact_water button {
+    margin-top: 89%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    border: transparent;
+    color: #636363;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+}
+/* .                                   ...............mobile */
+@media screen and (max-width: 550px) {
+  .impact_water button {
+    margin-top: 110%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .impact_heading {
+    text-align: center;
+    padding-top: 31%;
+    padding-bottom: 5%;
+    background-image: url("../webp images/impace_heading.webp");
+    min-height: 350px;
+  }
+
+  .impact_heading h1 {
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_heading p {
+    font-size: 1.3rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................impact_thermosphere */
+  .impact_thermosphere {
+    text-align: center;
+    background-image: url("../webp images/impact_thermosphere.webp");
+    min-height: 350px;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .thermosphere_spaceShip {
+    margin-left: 60%;
+
+    background-image: url("../webp images/thermosphere_spaceShip.jpg");
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+  .impact_thermosphere h1 {
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_thermosphere p {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................mesosphere*/
+  .impact_mesosphere {
+    background-image: url("../webp images/mesosphere bg mobile.webp");
+    min-height: 350px;
+    text-align: center;
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 18%;
+  }
+  .mesosphere_asteroid {
+    background-image: url("../webp images/mesosphere asteroid mobile.webp");
+    min-height: 90px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+  }
+  .impact_mesosphere h1 {
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_mesosphere p {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................Stratosphere*/
+  .impact_stratosphere {
+    background-image: url("../webp images/stratosphereBG_mobile.webp");
+    min-height: 350px;
+    text-align: center;
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 18%;
+  }
+  .stratosphere_astranout {
+    background-image: url("../webp images/stratosphere astronut mobile.webp");
+    min-height: 90px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    margin-left: 74%;
+  }
+  .impact_stratosphere h1 {
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_stratosphere p {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................troposphere*/
+  .impact_troposphere {
+    background-image: url("../webp images/troposphere_bg_mobile.webp");
+    min-height: 450px;
+    text-align: center;
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 18%;
+  }
+  .impact_troposphere h1 {
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+  }
+  .impact_troposphere p {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+  }
+  /* .........................................water*/
+  .impact_water {
+    background-image: url("../webp images/water_bbg_mobile.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 964px;
+    text-align: center;
+    padding-top: 26%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5px;
+  }
+  .impact_water h1 {
+    font-size: 1.8rem;
+    background-color: transparent;
+    color: #10127e;
+    font-weight: 600;
+  }
+  .impact_water p {
+    font-size: 1.2em;
+    background-color: transparent;
+    color: #10127e;
+    margin-top: 7%;
+  }
+  .impact_water button {
+    margin-top: 125%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    border: transparent;
+    color: #464646;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  /* .............................. */
+}

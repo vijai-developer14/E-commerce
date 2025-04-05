@@ -1,0 +1,297 @@
+.contactUs_bg {
+  max-width: 1613px;
+  margin: 0 auto;
+}
+.contactUs_question h1 {
+  color: #494949;
+  font-weight: 500;
+}
+.contactUs_question form button {
+  background-color: #34b129;
+  border-color: transparent;
+  color: white;
+}
+.contactUs_question form input {
+  border: solid 1px rgb(169, 169, 169);
+  padding-left: 3%;
+}
+.contactUs_question form input:focus {
+  outline: none;
+}
+.mailSection p {
+  color: #8d8d8d;
+}
+.mailSection h4 {
+  color: #5a5a5a;
+}
+.contactUs_question h3 {
+  font-weight: 500;
+  color: #565656;
+}
+.contactUs_question p {
+  font-weight: 500;
+  color: #717171;
+}
+/* ..................................desktop */
+
+.contactUs_bg {
+  display: flex;
+  flex-direction: row;
+  padding: 4%;
+
+  text-align: left;
+  justify-content: space-between;
+}
+.contactUs_question {
+  width: 60%;
+}
+.contactUs_question h1 {
+  font-size: 5rem;
+}
+.contactUs_question h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #616161;
+}
+
+.contactUs_question #contactUs_name,
+#contactUs_mail {
+  min-height: 45px;
+  /* border-radius: 6px; */
+  width: 80%;
+  margin-top: 7%;
+  font-size: 1.1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.contactUs_question #contactUs_yourNote {
+  min-height: 45px;
+  /* border-radius: 6px; */
+  width: 80%;
+  margin-top: 7%;
+  font-size: 1rem;
+  /* padding-bottom: 10%; */
+  /* padding-top: 2%; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.contactUs_question form button {
+  min-height: 40px;
+  width: 18%;
+  margin-top: 5%;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+.mailSection {
+  width: 30%;
+  margin-top: 8%;
+}
+.mailSection {
+  text-align: left;
+}
+.mailSection p {
+  font-size: 1.1rem;
+  margin-top: 9%;
+}
+
+.mailSection h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 3%;
+  padding-bottom: 8px;
+  border-bottom: solid 1px grey;
+}
+
+.message_iconBg {
+  height: 80px;
+  width: 80px;
+  background-color: #34b129;
+  border-radius: 50px;
+  padding-top: 15px;
+}
+.message_icon {
+  background-image: url("../webp images/mail_contact.png");
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  background-color: #34b129;
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: message 8s infinite linear;
+}
+@keyframes message {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactUs_question {
+    width: 100%;
+  }
+  .contactUs_bg {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  .contactUs_question h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .contactUs_question p {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .contactUs_question #contactUs_name,
+  #contactUs_mail {
+    min-height: 45px;
+    border-radius: 6px;
+    width: 80%;
+    margin-top: 2%;
+    font-size: 1.1rem;
+  }
+  .contactUs_question #contactUs_yourNote {
+    min-height: 125px;
+    border-radius: 6px;
+    width: 80%;
+    margin-top: 2%;
+    font-size: 1.1rem;
+    justify-content: start;
+  }
+  .contactUs_question form button {
+    min-height: 40px;
+    width: 18%;
+    margin-top: 7%;
+    border-radius: 5px;
+    font-size: 1.3rem;
+  }
+  .mailSection {
+    margin: 80px auto;
+    text-align: center;
+    width: 100%;
+  }
+  .mailSection p {
+    font-size: 1.1rem;
+    margin-top: 4%;
+  }
+
+  .mailSection h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1%;
+    padding-bottom: 8px;
+    border-bottom: none;
+  }
+  .message_iconBg {
+    height: 80px;
+    width: 80px;
+    background-color: #34b129;
+    border-radius: 50px;
+    padding-top: 15px;
+
+    margin: 0px auto;
+  }
+  .message_icon {
+    background-image: url("../webp images/mail_contact.png");
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #34b129;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+/* ...............................................mobile   */
+@media screen and (max-width: 425px) {
+  .contactUs_bg {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    margin-top: 5%;
+  }
+  .contactUs_question {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contactUs_question h1 {
+    font-size: 2rem;
+  }
+  .contactUs_question p {
+    font-size: 1.3rem;
+    margin-top: 4%;
+  }
+  .contactUs_question h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #727272;
+  }
+  .contactUs_question #contactUs_name,
+  #contactUs_mail {
+    min-height: 45px;
+    border-radius: 6px;
+    width: 80%;
+    margin-top: 10%;
+    font-size: 1.1rem;
+  }
+  .contactUs_question #contactUs_yourNote {
+    min-height: 125px;
+    border-radius: 6px;
+    width: 80%;
+    margin-top: 2%;
+    font-size: 1.1rem;
+    justify-content: start;
+  }
+  .contactUs_question form button {
+    min-height: 40px;
+    width: 30%;
+    margin-top: 7%;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  .mailSection {
+    margin: 80px auto;
+    text-align: center;
+  }
+  .mailSection p {
+    font-size: 1rem;
+    margin-top: 9%;
+  }
+
+  .mailSection h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 3%;
+    padding-bottom: 8px;
+    border-bottom: none;
+  }
+  .message_iconBg {
+    height: 80px;
+    width: 80px;
+    background-color: #34b129;
+    border-radius: 50px;
+    padding-top: 15px;
+
+    margin: 0px auto;
+  }
+  .message_icon {
+    background-image: url("../webp images/mail_contact.png");
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #34b129;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 250px) {
+  .mailSection h4 {
+    font-size: 1.1rem;
+  }
+}

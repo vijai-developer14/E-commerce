@@ -1,0 +1,88 @@
+.shopPage_bg {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.shopPage_wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+  margin-top: 1.7%;
+  margin-bottom: 15%;
+}
+.shopImage_bg {
+  display: flex;
+  justify-content: center;
+}
+.shopPageContainer {
+  background-color: white;
+  padding: 4%;
+}
+.shopPageContainer h3 {
+  background-color: transparent;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 4%;
+}
+.shopImage_bg img {
+  background-color: transparent;
+}
+/* ...........................................text cnt */
+.shopPageTextCnt {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+  margin-top: 5%;
+}
+#shopPagecartImg {
+  height: 25px;
+  background-color: transparent;
+  width: 25px;
+}
+.filterBg {
+  border: solid 1px #b7b7b7;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 1.5%;
+  align-items: center;
+  display: flex;
+}
+.filterBg div {
+  font-size: 1.1rem;
+  color: #494949;
+}
+.filterBg button {
+  border: solid 1px #b7b7b7;
+  padding: 0.5% 0.8%;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #494949;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .shopPage_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .shopPage_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5%;
+    margin-bottom: 390px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .shopPage_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5%;
+    margin-bottom: 990px;
+  }
+}

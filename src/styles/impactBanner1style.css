@@ -1,0 +1,32 @@
+.impactBanner1Bg {
+  background-image: url("../webp images/banner2.webp");
+  color: red;
+  width: 1920px;
+  height: 927px;
+  padding-top: 245px;
+  padding-left: 255px;
+}
+.impactBanner1Bg h1 {
+  font-size: 4em;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+.impactBanner1Bg p {
+  font-size: 1.6em;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  width: 900px;
+}
+.impactBanner1Bg button {
+  font-size: 1.1em;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  border-color: white;
+  border-radius: 30px;
+  height: 40px;
+  width: 130px;
+  margin-top: 49px;
+}

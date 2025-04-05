@@ -1,0 +1,173 @@
+header {
+  max-width: 1500px;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 5px;
+}
+#logo2 {
+  display: none;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: normal;
+  background-color: white;
+}
+header ul li {
+  background-color: white;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  display: inline-block;
+}
+
+header ul li:hover {
+  letter-spacing: 3px;
+}
+
+.searchImage {
+  height: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.cartImage {
+  height: 25px;
+  cursor: pointer;
+}
+.search {
+  padding-right: 1%;
+  background-color: transparent;
+}
+/* ...........................hamburger */
+.hamburgerImage {
+  height: 25px;
+  display: none;
+}
+
+/* ...........................searchBox */
+.searchBg {
+  max-width: 1500px;
+
+  margin: auto;
+  background-color: white;
+}
+.searchAppear {
+  margin: -70px 0px 0px 1900px;
+  padding-right: 10px;
+  background-color: white;
+}
+.searchAppear form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: white;
+}
+.searchAppear form input[type="text"] {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  border-top: none;
+  padding-left: 15px;
+  border-left: none;
+  border-right: none;
+  border-color: #dddddd;
+  /* border-radius: 40px; */
+
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-style: normal;
+}
+.searchAppear form input[type="text"]:focus {
+  outline: none;
+  padding-left: 10px;
+}
+
+.searchAppear form input[type="submit"] {
+  /* position: absolute; */
+  background-image: url("../images/loupe.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-position-y: 3px;
+  border-radius: 20px;
+  z-index: 999;
+  height: 26px;
+  width: 23px;
+  /* margin-left: 91%; */
+  cursor: pointer;
+}
+
+.closeImage {
+  height: 17px;
+  background-color: white;
+  margin-left: 15px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+@media screen and (max-width: 1024px) {
+  .group {
+    position: absolute;
+    background-color: rgb(16, 180, 62);
+    /* margin-left: -1%; */
+    margin-bottom: 414px;
+    z-index: -1;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: margin-bottom 0.1s linear;
+  }
+  .group.hamburgerActive {
+    position: absolute;
+    background-color: rgb(16, 180, 62);
+    margin-left: -1%;
+    margin-bottom: -363px;
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+    transition: margin-bottom 0.2s linear;
+  }
+  .group ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: rgb(16, 180, 62);
+  }
+  .group ul li {
+    background-color: rgb(16, 180, 62);
+    color: white;
+  }
+  .search {
+    display: flex;
+  }
+  .hamburgerImage {
+    display: block;
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 751px) {
+  .group {
+    margin-left: -1%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #logo2 {
+    display: block;
+    margin-bottom: 12px;
+  }
+  #logo1 {
+    display: none;
+  }
+}
