@@ -14,8 +14,4 @@ A full-stack e-commerce website built with React, PHP, and MySQL featuring produ
 - CSS3 (Flexbox/Grid)
 - Responsive Design
 
-**Backend:**
-- PHP 
-- MySQL Database
-- RESTful APIs
-- XAMPP Server
+
