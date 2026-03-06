@@ -8,10 +8,6 @@ A full-stack e-commerce website built with React, PHP, and MySQL featuring produ
 - Designed relational database schema to link carts with user sessions and product inventory.
 
 
-## 🛠️ Technologies
-**Frontend:**
-- React.js (Context API)
-- CSS3 (Flexbox/Grid)
-- Responsive Design
+
 
 
